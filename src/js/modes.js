@@ -105,7 +105,7 @@ export const modeLogicConfig = {
     theirExchange: (yourStation, theirStation, arbitrary) =>
       `5NN ${theirStation.serialNumber} TU`,
     yourSignoff: (yourStation, theirStation, arbitrary) =>
-      `TU ${yourStation.callsign}`,
+      `TU`,
     theirSignoff: null,
     requiresInfoField: true,
     requiresInfoField2: false,
