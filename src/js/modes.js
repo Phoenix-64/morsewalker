@@ -101,7 +101,7 @@ export const modeLogicConfig = {
   contest: {
     cqMessage: (yourStation, theirStation, arbitrary) =>
       `CQ TEST DE ${yourStation.callsign}`,
-    yourExchange: (yourStation, theirStation, arbitrary) => `5NN`,
+    yourExchange: (yourStation, theirStation, arbitrary) => ``,
     theirExchange: (yourStation, theirStation, arbitrary) =>
       `5NN ${theirStation.serialNumber} TU`,
     yourSignoff: (yourStation, theirStation, arbitrary) =>
