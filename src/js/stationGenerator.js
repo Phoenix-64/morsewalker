@@ -278,7 +278,7 @@ export function getCallingStation() {
     ),
     name: randomElement(names),
     state: isUS ? randomElement(stateAbbreviations) : '',
-    serialNumber: (Math.floor(Math.random() * 30) + 1)
+    serialNumber: (Math.floor(Math.random() * 300) + 30)
       .toString()
       .padStart(2, '0'),
     cwopsNumber: Math.floor(Math.random() * 4000) + 1,
