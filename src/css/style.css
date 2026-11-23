@@ -9,3 +9,8 @@ input[type='text']::placeholder {
   opacity: 1; /* Ensures uniform appearance across different browsers */
   text-transform: none; /* Reset the text-transform */
 }
+
+/* Dark mode: keep page background consistent */
+html[data-bs-theme='dark'] body {
+  background-color: #212529;
+}
